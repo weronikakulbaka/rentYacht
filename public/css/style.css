@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.element{
+  margin: 0;
+  position: relative;
+  
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+   background-color: #e6e6e6;
+   overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #808080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.main{
+    background-color: #b3b3b3;
+    color: #fff;
+}
+
+.footer{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    color: #808080;
+}
+/*Responsive backgorund photo */
+img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+/*Centered title on a background photo */
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: #fff;
+  !font-family: 'Montserrat', sans-serif;
+}
+
+/*Dashboard style */
+
+.hello{
+    position: absolute;
+    top: 19%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+    !font-family: 'Montserrat', sans-serif;
+}
+/* Button style */
+button{
+  width: 100%;
+  background-color:#ddd;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+/* Form style */
+.websiteForm{
+  margin: 30px auto 0 auto; 
+  width: 800px;
+  height: 600px;
+
+}
+
+td{
+  height: 50px;
+  font-size: 20px;
+}
+
+select, 
+input[type=number],
+input[type=text],
+input[type=password],
+input[type=email]{
+  width: 600px;
+  padding: 12px 20px;
+  margin: 8px 0 8px 12px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+input[type=submit]{
+  width: 100%;
+  height: 40px;
+  background-color:#ddd;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+/* Form style after login */
+.dashForm{
+    position: absolute;
+    top: 5%;
+    margin: 30px auto 0 auto; 
+    width: 700px;
+    height: 600px;
+    left: 40%;
+    color: #fff;
+
+}
+
+label{
+    color: #fff;
+}
+
+td.dash{
+    color: #fff;
+}
+
